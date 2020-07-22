@@ -14,7 +14,7 @@ ms.locfileid: "86441330"
 ---
 # <a name="interfaces-c-programming-guide"></a>Interfaces (Guia de Programação em C#)
 
-Uma interface contém definições para um grupo de funcionalidades relacionadas que uma [classe](../../language-reference/keywords/class.md) não abstrata ou uma [struct](../../language-reference/builtin-types/struct.md) deve implementar. Uma interface pode definir `static` métodos, que devem ter uma implementação. A partir do C# 8,0, uma interface pode definir uma implementação padrão para membros. Uma interface não pode declarar dados de instância, como campos, propriedades implementadas automaticamente ou eventos de propriedade.
+Uma interface contém definições para um grupo de funcionalidades relacionadas que uma [classe](../../language-reference/keywords/class.md) não abstrata ou uma [struct](../../language-reference/builtin-types/struct.md) deve implementar. Uma interface pode definir `static` métodos, que devem ter uma implementação. A partir do C# 8.0, uma interface pode definir uma implementação padrão para membros. Uma interface não pode declarar dados de instância, como campos, propriedades implementadas automaticamente ou eventos de propriedade.
 
 Usando interfaces, você pode, por exemplo, incluir o comportamento de várias fontes em uma classe. Essa funcionalidade é importante em C# porque a linguagem não dá suporte a várias heranças de classes. Além disso, use uma interface se você deseja simular a herança para structs, pois eles não podem herdar de outro struct ou classe.
 
